@@ -6,7 +6,7 @@ import Image from 'next/image'
 const About = () => {
   return (
     <section id='about'>
-      <div className='my-7 bg-container-blue flex flex-row justify-center items-start gap-20'>
+      <div className='bg-container-blue flex flex-row justify-center items-start gap-20 relative'>
         <div className='pt-10 w-1/3'>
           <header>About Me</header>
           <p className='text-body-text-on-blue flex flex-col gap-2'>
@@ -16,8 +16,8 @@ const About = () => {
         <div className='p-3 bg-image-border-on-blue rounded-full my-7'>
           <Image src='/images/Walking.png' alt='Walking' width={325} height={434} className='rounded-full'></Image>
         </div>
+        <Image src='/images/full-time_learner.png' alt='Full-time Learner' width={400} height={100} className='absolute bottom-0 left-40'></Image>
       </div>
-      <Image src='/images/full-time_learner.png' alt='full-time learner' height={255} width={400} className='relative bottom-44 left-40 scale-150'></Image>
     </section>
   )
 }

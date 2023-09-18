@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <Script src="https://kit.fontawesome.com/beddddba67.js" crossOrigin="anonymous"></Script>
+        <Script src="https://kit.fontawesome.com/beddddba67.js" crossOrigin="anonymous" />
       </head>  
       <body className={inter.className}>
         <NavBar />
