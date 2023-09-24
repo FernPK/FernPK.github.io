@@ -14,11 +14,11 @@ const Contact = () => {
             <header className='mb-4'>Contact Me</header>
             <button className='p-2 text-xl mb-3'>
               <i className="fa-regular fa-envelope text-2xl w-7"></i>
-              pornnapat5563@gmail.com
+              <a href="mailto:pornnapat5563@gmail.com">pornnapat5563@gmail.com</a>
               </button>
             <button className='p-2 text-xl'>
               <i className="fa-brands fa-linkedin text-2xl w-7"></i>
-              Pornnapat Ketplung
+              <a href="https://www.linkedin.com/in/pornnapat-ketplung-919272190/" target='_blank'>Pornnapat Ketplung</a>
               </button>
           </div>
         </div>

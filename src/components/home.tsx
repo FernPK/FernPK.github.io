@@ -15,10 +15,10 @@ const Home = () => {
             <h1 className='text-6xl font-medium text-header-text'><span className='font-bold'>Front-end</span> Developer</h1>
             <p className='text-xl text-body-text-on-white px-1 py-3'>Hi, I&apos;m Pornnapat Ketplung, an undergraduate who is interested in web development and loves learning new things </p>
             <div className='flex flex-row gap-4'>
-              <button className='border border-white bg-primary text-white hover:bg-primary-hover'>
-                <i className="fa-solid fa-circle-arrow-down text-2xl"></i>Download Resume</button>
-              <button className='border border-primary bg-white text-primary hover:bg-white-hover'>
-                <i className="fa-brands fa-github text-2xl"></i>Visit my GitHub</button>
+              <a className='border border-white bg-primary text-white hover:bg-primary-hover button'>
+                <i className="fa-solid fa-circle-arrow-down text-2xl"></i>Download Resume</a>
+              <a className='border border-primary bg-white text-primary hover:bg-white-hover button' href='https://github.com/FernPK' target='_blank'>
+                <i className="fa-brands fa-github text-2xl"></i>Visit my GitHub</a>
             </div>
           </div>
         </div>
