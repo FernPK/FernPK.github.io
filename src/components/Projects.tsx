@@ -1,6 +1,7 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
 import ProjectCard2 from './ProjectCard2'
+import ProjectCard3 from './ProjectCard3'
 
 // type Props = {}
 
@@ -12,7 +13,7 @@ const Projects = () => {
         <div>
           <ProjectCard />
           <ProjectCard2 />
-          <ProjectCard />
+          <ProjectCard3 />
         </div>
         <div className='lg:mb-10 mb-8'>
           <p className='text-center lg:text-2xl text-xl font-medium text-primary-light lg:mb-2 sm:mb-1 mb-2'>See more projects at</p>
