@@ -1,5 +1,6 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
+import ProjectCard2 from './ProjectCard2'
 
 // type Props = {}
 
@@ -10,7 +11,7 @@ const Projects = () => {
         <header className='block mx-auto before:bg-header-highlight-on-white mt-10'>Projects</header>
         <div>
           <ProjectCard />
-          <ProjectCard />
+          <ProjectCard2 />
           <ProjectCard />
         </div>
         <div className='lg:mb-10 mb-8'>
