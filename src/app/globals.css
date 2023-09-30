@@ -73,17 +73,37 @@ header::before {
   margin-left: 8px;
 }
 
-@media screen and (max-width: 1024px) {
-  header {
-    font-size: 1.8rem;
-    margin-bottom: 16px;
-  }
-}
-
 .project-card:nth-child(odd) {
   flex-direction: row;
 }
 
 .project-card:nth-child(even) {
   flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    font-size: 1.8rem;
+    margin-bottom: 16px;
+  }
+  header::before {
+    bottom: 8px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  header {
+    font-size: 1.4rem;
+  }
+  header::before {
+    bottom: 6px;
+  }
+  .project-card:nth-child(odd) {
+    flex-direction: column;
+  }
+  
+  .project-card:nth-child(even) {
+    flex-direction: column;
+  }
+
 }

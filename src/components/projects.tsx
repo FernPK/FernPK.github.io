@@ -13,21 +13,21 @@ const Projects = () => {
           <ProjectCard />
           <ProjectCard />
         </div>
-        <div className='mb-10'>
-          <p className='text-center text-2xl font-medium text-primary-light mb-2'>See more projects at</p>
-          <div className='flex flex-row gap-5 justify-center items-center'>
-            <div className='flex flex-row justify-center items-center px-4 py-2 gap-2 text-xl text-header-text'>
-              <i className="fa-brands fa-github text-2xl"></i>
+        <div className='lg:mb-10 mb-8'>
+          <p className='text-center lg:text-2xl text-xl font-medium text-primary-light lg:mb-2 sm:mb-1 mb-2'>See more projects at</p>
+          <div className='flex sm:flex-row flex-col sm:gap-5 gab-2 justify-center items-center'>
+            <a className='flex flex-row justify-center items-center px-4 py-2 gap-2 lg:text-xl text-lg text-header-text' href='https://github.com/FernPK' target='_blank'>
+              <i className="fa-brands fa-github lg:text-2xl text-xl"></i>
               <p>GitHub</p>
-            </div>
-            <div className='flex flex-row justify-center items-center px-4 py-2 gap-2 text-xl text-header-text'>
-              <i className="fa-brands fa-free-code-camp text-2xl"></i>
+            </a>
+            <a className='flex flex-row justify-center items-center px-4 py-2 gap-2 lg:text-xl text-lg text-header-text' href='https://www.freecodecamp.org/fernfofy' target='_blank'>
+              <i className="fa-brands fa-free-code-camp lg:text-2xl text-xll"></i>
               <p>freeCodeCamp</p>
-            </div>
-            <div className='flex flex-row justify-center items-center px-4 py-2 gap-2 text-xl text-header-text'>
-              <i className="fa-brands fa-codepen text-2xl"></i>
+            </a>
+            <a className='flex flex-row justify-center items-center px-4 py-2 gap-2 lg:text-xl text-lg text-header-text' href='https://codepen.io/fernpk' target='_blank'>
+              <i className="fa-brands fa-codepen lg:text-2xl text-xl"></i>
               <p>CodePen</p>
-            </div>
+            </a>
           </div>
         </div>
       </div>

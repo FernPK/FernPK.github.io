@@ -4,7 +4,7 @@ import React from 'react'
 
 const NavBar = () => {
   return (
-    <nav className='flex flex-row justify-center items-center gap-8 h-14 w-screen text-body-text-on-white fixed bg-white z-10'>
+    <nav className='flex flex-row justify-center items-center gap-8 sm:h-14 h-12 w-screen text-body-text-on-white fixed bg-white z-20 sm:text-base text-sm'>
       <a href="#home" className='font-bold text-primary underline'>Home</a>
       <a href="#about">About</a>
       <a href="#projects">Projects</a>

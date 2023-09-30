@@ -5,10 +5,10 @@ window.onscroll = () => {
   const scrollPosition = document.documentElement.scrollTop;
   let currentId = '';
   sections.forEach((section, idx) => {
-    if (scrollPosition >= section.offsetTop - section.offsetHeight * 0.3 && scrollPosition < section.offsetTop + section.offsetHeight - section.offsetHeight * 0.3) {
+    if (scrollPosition >= section.offsetTop - section.offsetHeight * 0.4 && scrollPosition < section.offsetTop + section.offsetHeight - section.offsetHeight * 0.4) {
       currentId = section.getAttribute('id');
     }
-    else if (idx === sections.length - 1 && scrollPosition + screen.height*0.6 >= section.offsetTop) {
+    else if (idx === sections.length - 1 && scrollPosition + screen.height*0.8 >= section.offsetTop) {
       currentId = 'contact';
     }
   });
