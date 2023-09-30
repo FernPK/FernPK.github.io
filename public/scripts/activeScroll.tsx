@@ -3,7 +3,7 @@ const sections = document.querySelectorAll('section');
 const navLink = document.querySelectorAll('nav a');
 window.onscroll = () => {
   const scrollPosition = document.documentElement.scrollTop;
-  let currentId = '';
+  let currentId: string | null = '';
   sections.forEach((section, idx) => {
     if (scrollPosition >= section.offsetTop - section.offsetHeight * 0.4 && scrollPosition < section.offsetTop + section.offsetHeight - section.offsetHeight * 0.4) {
       currentId = section.getAttribute('id');
