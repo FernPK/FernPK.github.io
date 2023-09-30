@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <Script src="https://kit.fontawesome.com/beddddba67.js" crossOrigin="anonymous" />
-        <Script src='scripts/activeScroll.tsx'></Script>
+        {/* <Script src='scripts/activeScroll.tsx'></Script> */}
       </head>  
       <body className={inter.className}>
         <NavBar />
