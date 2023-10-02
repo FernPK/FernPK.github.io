@@ -5,7 +5,7 @@ const ProjectCard2 = () => {
   return (
     <div className='flex justify-start items-start mx-auto border border-image-border-on-white p-4 rounded-2xl project-card sm:mb-10 mb-6 max-w-screen-xl lg:w-5/6 w-11/12'>
       <div className='sm:w-3/5 w-full self-stretch'>
-        <Image src="https://cdn.discordapp.com/attachments/1156240822644260926/1157735186176422008/BunnyJeans.png?ex=6519b06a&is=65185eea&hm=9ce033edfeae850597c9af7236b274a74ba6ea15b30775aae39be91cf10f2722&" alt='Random Quote Machine' height={500} width={800} className='h-full rounded-2xl object-cover'></Image>
+        <Image src="https://cdn.discordapp.com/attachments/1156240822644260926/1157735186176422008/BunnyJeans.png?ex=6519b06a&is=65185eea&hm=9ce033edfeae850597c9af7236b274a74ba6ea15b30775aae39be91cf10f2722&" alt='BunnyJeans' height={500} width={800} className='h-full rounded-2xl object-cover'></Image>
       </div>
       <div className='px-6 lg:w-2/5 sm:w-3/5 w-full sm:pt-0 pt-4 mx-auto self-center'>
         <div className='xl:px-4 px-0 flex flex-col justify-start items-center gap-4 2xl:mb-10 xl:mb-6 mb-2'>
