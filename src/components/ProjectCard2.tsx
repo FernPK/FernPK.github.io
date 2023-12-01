@@ -17,7 +17,7 @@ const ProjectCard2 = () => {
           </div>
           <div className='flex flex-row gap-4'>
             <div className="xl:text-base text-sm text-primary px-2 py-1 rounded-lg border border-primary-light">React</div>
-            <div className="txl:text-base text-sm text-primary px-2 py-1 rounded-lg border border-primary-light">CSS</div>
+            <div className="xl:text-base text-sm text-primary px-2 py-1 rounded-lg border border-primary-light">CSS</div>
           </div>
         </div>
         <div className='flex flex-row text-header-text justify-center items-start xl:text-xl text-lg lg:font-semibold font-medium'>
